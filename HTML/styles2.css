@@ -1,0 +1,36 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-decoration: underline;
+    text-transform: none;
+    color:blueviolet;
+}
+
+h2 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color: green;
+
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.und {
+    text-decoration: underline;
+}
+
+.imp {
+    background-color: red;
+}
+
+#intro {
+    font-size: larger;
+}
