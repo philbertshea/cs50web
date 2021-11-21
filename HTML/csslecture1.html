@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>XXX Page</title>
+        <!--The style tag in head dictates what elements are assigned to what style-->
+        <!--Exception is when the heading itself has a style tag for the same property-->
+        <style>
+            body {
+                background-color: aqua;
+            }
+
+            h1 {
+                text-decoration: underline;
+                text-transform: uppercase;
+            }
+
+        </style>
+    </head>
+    <!--Adding a style tag to the body tag will make everything within the body follow this style tag.-->
+    <!--Exception is when the h3 heading has a style tag for the same property, which overrides the body style tag for the h3 heading only.-->
+    <body style="text-align: center;">
+        <!--Adding style tags within the h1-h6/p tags controls the style for the specific text enclosed within these tags.-->
+        <h1 style="color: blue; font-family: Arial; text-transform: none;">This is an Arial heading in blue, centralised.</h1>
+        <h2 style="color: red; font-family: Helvetica;">This is a Helvetica heading in red, centralised</h2>
+        <h3 style="color: orangered; text-align: left;">This is a springgreen heading, to the left of the webpage.</h3>
+
+        <h1>A heading without any style tag, subject to styling from style at head</h1>
+
+    </body>
+
+</html>
