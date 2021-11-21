@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Size, Font</title>
+        
+        <!--Padding refers to the margin within the orange box element (div element) where text is located-->
+        <!--Margin refers to the margin outside of the orange box (ie between div element and the page borders)-->
+        <style>
+            #div1 {
+                background-color: orange;
+                width: 200px;
+                height: 300px;
+                padding: 10px;
+                margin: 50px;
+
+                border: 3px solid black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            table {
+                border: 1px dashed black;
+            }
+
+            th {
+                border: 1px solid green;
+            }
+
+            td {
+                border: 1px dotted blue;
+            }
+
+            th, td {
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div1">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+        </div>
+
+        <div id="div2">
+            <!--Table-->
+        <table>
+            <thead>
+                <tr>   <!--Row 1-->
+                    <th>Column 1</th>   <!--th (header type) in bold, central-->
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>    <!--Row 2-->
+                    <td>Datapoint 1</td>   <!--td represents datapoint-->
+                    <td>Datapoint 2</td>
+                    <td>Datapoint 3</td>
+                </tr>
+
+                <tr>    <!--Row 3-->
+                    <td>Datapoint 4</td>
+                    <td>Datapoint 5</td>
+                    <td>Datapoint 6</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>

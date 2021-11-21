@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced</title>
+
+        <!--
+            Descendants CSS:
+            ul > ol refers to the ordered list within the unordered list (ie second list subitem 1 subitem 2)
+            ol > ul refers to the unordered list within the ordered list (ie first list two subitems)
+
+            A CSS:
+
+        -->
+        <style>
+            /* Descendants CSS */
+            ol {
+                color: red;
+            }
+            ul {
+                color: green;
+            }
+            
+            ul > ol {
+                color: blue; 
+            }
+
+            ol > ul {
+                color: purple;
+            }
+
+
+
+            /* A CSS */
+            a {
+                background-color: aqua;
+            }
+            a[href="http://google.com.sg"] {
+                background-color: greenyellow;
+            }
+
+            a.hover {
+                color: green;
+            }
+
+
+
+            /* Button CSS */
+            button {
+                color: green;
+                padding: 10px;
+                margin: 10px;
+                font-family: 'Courier New', Courier, monospace;
+                background-color: aqua;
+            }
+
+            button:hover {
+                background-color: brown;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--Descendants CSS-->
+
+        <ol>
+            <li>List Item One</li>
+            <li>List Item Two with subitems</li>
+            <ul>
+                <li>A sublist item</li>
+                <li>Another sublist item</li>
+            </ul>
+            <li>List Item Three</li>
+        </ol>
+
+        <ul>
+            <li>Some item</li>
+            <li>Some other item</li>
+            <li>Some other item with subitems</li>
+            <ol>
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+            </ol>
+        </ul>
+        
+        <br>
+
+        <!-- A CSS-->
+        <ul>
+            <li><a href="http://google.com.sg">Google</a></li>
+            <li><a href="http://amazon.com.sg">Amazon</a></li>
+            <li><a href="http://facebook.com.sg">Facebook</a></li>
+        </ul>
+
+        <br>
+
+        <!--Button CSS-->
+        <button> Click me. </button>
+    </body>
+</html>

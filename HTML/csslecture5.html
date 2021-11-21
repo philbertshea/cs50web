@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive (to device/window size)</title>
+        <!--Media Queries help to adjust CSS based on width of the window displaying the webpage.-->
+        <style>
+
+            /* Media Queries: Shrink the window to see the effect */
+            @media(min-width: 600px) {
+                body {
+                    background-color: green;
+                }
+            }
+
+            @media(max-width: 599px) {
+                body {
+                    background-color: purple;
+                }
+            }
+        </style>
+        
+        <!--Viewport accessed the device width and helps to adjust the webpage based on the device width, so that pages look more natural even on mobile devices.-->
+        <meta name="viewport" content="width=device=width initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1>Hello World.</h1>
+    </body>
+</html>
